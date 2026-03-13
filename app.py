@@ -30,7 +30,8 @@ CLASS_LABELS = {0: 'Drugged Iris', 1: 'Normal Iris'}
 if not MODEL_PATH.exists():
     raise FileNotFoundError(f'Model file not found at {MODEL_PATH}')
 
-iris_model = load_model(MODEL_PATH, compile=False)
+from keras.models import load_model
+iris_model = load_model(MODEL_PATH, compile=False, custom_objects={}, safe_mode=False)
 eye_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_eye.xml')
 
 if eye_cascade.empty():
