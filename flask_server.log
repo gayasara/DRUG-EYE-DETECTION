@@ -1,0 +1,29 @@
+/Users/kaviya/Documents/crowlk/Drugged Eye detection/.venv/lib/python3.13/site-packages/keras/src/export/tf2onnx_lib.py:8: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, "object"):
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+ * Serving Flask app 'app'
+ * Debug mode: off
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2026 20:27:32] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2026 20:27:32] "GET /login?next=/dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2026 20:27:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2026 20:28:09] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2026 20:28:12] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2026 20:28:13] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2026 20:28:13] "GET /dashboard HTTP/1.1" 200 -
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 150ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 159ms/step
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2026 20:28:39] "POST /dashboard HTTP/1.1" 200 -
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 112ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 120ms/step
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2026 20:34:16] "POST /dashboard HTTP/1.1" 200 -
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 66ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 76ms/step
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2026 20:36:11] "POST /dashboard HTTP/1.1" 200 -
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 64ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 72ms/step
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2026 20:36:34] "POST /dashboard HTTP/1.1" 200 -
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 35ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 42ms/step
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2026 20:36:44] "POST /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2026 20:37:19] "POST /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2026 20:37:26] "POST /dashboard HTTP/1.1" 200 -
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 57ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 64ms/step
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2026 20:37:59] "POST /dashboard HTTP/1.1" 200 -
